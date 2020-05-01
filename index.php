@@ -11,7 +11,7 @@
   <title>Blog</title>
 </head>
 <body>
-  <h1>Blog</h1>
+  <h1>PHP Blog</h1>
   
   <?php
    
@@ -19,10 +19,14 @@
    
     $blogs->output();
   ?>
-  <h2>find blogs</h2>
-  <p>blogs</p>
+
+  <!-- <h2>find blogs</h2>
+  <p>blogs</p> -->
   <?php
-        $blogs->findBlogByIndex( 4 );
-  ?>
+  //       $blogs->findBlogByIndex(
+         
+  //        );
+  // ?>
+
 </body>
 </html>
